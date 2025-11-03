@@ -18,7 +18,7 @@ sudo apt install git dkms build-essential linux-headers-$(uname -r)
 2. download src
 
 ```
-git clone https://github.com/tuanlda78202/totolink-ax900.git
+git clone https://github.com/tuanlda78202/totolink-ax900-x900usm.git
 cd totolink-ax900 
 ```
 
@@ -28,7 +28,7 @@ cd totolink-ax900
 sudo dkms add . 
 ```
 
-4. navigate dkms dir and config makefile path  
+4. navigate dkms dir  
 
 ```bash
 cd /usr/src/rtl8851bu-0.2 && cd ./include
@@ -95,7 +95,7 @@ ls /sys/class/net/
 # stop and remove the module
 sudo modprobe -r 8851bu
 
-# remove from DKMS
+# remove from dkms
 sudo dkms remove rtl8851bu/0.2 --all
 
 # remove auto-loading configuration
