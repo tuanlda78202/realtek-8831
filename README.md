@@ -1,6 +1,12 @@
+<div align="center">
+  
 # totolink ax900 x900usm linux driver
+  
+[install](#install) | [troubleshooting](#troubleshooting) | [uninstallation](#uninstallation)
 
 ![TOTOLINK](https://github.com/user-attachments/assets/81cd186a-665d-4513-8330-98189fd4655a)
+
+</div>
 
 > [!NOTE]  
 > support ubuntu 24.04 (linux kernel 6.14)
